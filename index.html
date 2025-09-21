@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Box Model Example</title>
+  <style>
+    /* Common style for all boxes */
+    .box {
+      width: 250px;
+      height: 150px;
+      padding: 20px;
+      border: 10px solid black;
+      margin: 20px; /* default margin for all boxes */
+    }
+
+    /* Individual box colors */
+    #first {
+      background-color: cadetblue;
+    }
+
+    #second {
+      background-color: gold;
+      margin-left: auto;   /* pushes it to center */
+      margin-right: auto;  /* pushes it to center */
+    }
+
+    #third {
+      background-color: indianred;
+    }
+  </style>
+</head>
+<body>
+  
+  <div id="first" class="box">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Aliquam eu luctus nisl, vitae pellentesque magna.
+  </div>
+
+  <div id="second" class="box">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Aliquam eu luctus nisl, vitae pellentesque magna.
+  </div>
+
+  <div id="third" class="box">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    Aliquam eu luctus nisl, vitae pellentesque magna.
+  </div>
+
+</body>
+</html>
